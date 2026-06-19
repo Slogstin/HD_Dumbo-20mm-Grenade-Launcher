@@ -1,0 +1,5 @@
+server float SLG_Dumbo_Spawns					= 1.25;
+server bool hdm_enable_dumbo					= true;
+server bool virdumbo_allowBackpacks				= true;
+server bool SLG_Dumbo_Persistency 				= true;
+server int hdm_dumbo_price 						= 215;

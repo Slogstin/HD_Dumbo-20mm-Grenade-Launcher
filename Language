@@ -1,0 +1,11 @@
+[en enc eng eni ena enz default]
+
+//Dumbo
+OB_DUMBO = "%o got trampled by %k.";
+TAG_DUMBO = "'Dumbo' 20mm Grenade Launcher";
+PICKUP_DUMBO = "You got the 'Dumbo' 20mm Grenade Launcher!";
+
+//Merchant
+MERCH_CAT_DUMBO					= "VIRID Inc.";
+MERCH_TAG_DUMBO					= "'Dumbo' 20mm Grenade Launcher";
+MERCH_FLAVOR_DUMBO				= "It was almost called 'Benjamin' instead.";

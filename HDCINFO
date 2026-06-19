@@ -1,0 +1,11 @@
+//Spawning
+addSpawnTableSingleEntry => { "tableName": "RLReplaces", "name": "DumboDrop", "weight": "#SLG_Dumbo_Spawns", "persists": "#SLG_Dumbo_Persistency"}
+
+//Backpack Filter
+addBPSpawnPoolFilter => { "name": "VirDumbo", "allowed": "#virdumbo_allowBackpacks" }
+
+//Ammo Association
+addAmmoUser => { "ammoName": "WAN_20mmGrenadeAmmo", "name": "VirDumbo" }
+
+//Merchant Store
+newMerchantStoreItem => { "enabled": "#hdm_enable_dumbo", "type": "weapon", "category": "$MERCH_CAT_DUMBO", "item": "VirDumbo", "icon": "DMBOX0", "displayName": "$MERCH_TAG_DUMBO", "basePrice": "#hdm_dumbo_price", "flavorText": "$MERCH_FLAVOR_DUMBO" }

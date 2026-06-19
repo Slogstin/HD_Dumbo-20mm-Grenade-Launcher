@@ -1,0 +1,48 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "'Dumbo' Grenade Launcher Options", "VirDumbo_Menu"
+}
+
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "'Dumbo' Grenade Launcher Options", "VirDumbo_Menu"
+}
+
+OptionValue "SpawnEnable"
+{
+    0,    "Nope"
+    1,    "Yepp"
+}
+
+
+OptionMenu "VirDumbo_Menu"
+{
+	Title "'Dumbo' Grenade Launcher Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn (RocketLauncher Pool)", "SLG_Dumbo_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Spawns in Backpacks?", "virqueen_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Has Persistent Spawns?", "SLG_Dumbo_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_dumbo", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_dumbo_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_Dumbo_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_dumbo_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
